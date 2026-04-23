@@ -3,6 +3,6 @@
 use App\Http\Controllers\CalculadoraController;
 use Illuminate\Support\Facades\Route;
 
-// Agora a página inicial (/) chama o seu Controller, não a 'welcome'
+// alteração de rota para a calculadora e não a telinha preta do laravel. tomei mó susto kkkkk
 Route::get('/', [CalculadoraController::class, 'index']);
 Route::post('/calcular', [CalculadoraController::class, 'calcular']);
